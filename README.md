@@ -35,6 +35,23 @@
     2. textAlign (TextAlign.center etc)
     3. style (TextStyle() etc)
 
+=== Chapter3 === (Row and Columns)
+-> Row or Column both has attributes
+        -> MainAxisAlignment
+            -> mainAxisAlignment: MainAxisAlignment.start       : Aligns at Start
+            -> mainAxisAlignment: MainAxisAlignment.end         : Aligns at End
+            -> mainAxisAlignment: MainAxisAlignment.center      : Aligns at Center
+            -> mainAxisAlignment: MainAxisAlignment.spaceEvenly : Same space in left, right and in between
+            -> mainAxisAlignment: MainAxisAlignment.spaceBetween: Space between items but no space in left, right
+            -> mainAxisAlignment: MainAxisAlignment.spaceAround : Space in left, right are less and in between more
+        -> CrossAxisAlignment
+            -> crossAxisAlignment: CrossAxisAlignment.start     : Aligns at Start
+            -> crossAxisAlignment: CrossAxisAlignment.end       : Aligns at End
+            -> crossAxisAlignment: CrossAxisAlignment.center    : Align at Center.
+            -> crossAxisAlignment: CrossAxisAlignment.baseline  : Base line need to be aligned in same level.
+            -> crossAxisAlignment: CrossAxisAlignment.stretch   : Stretches end to end
+->
+
 
 
 === Shurtcuts ==

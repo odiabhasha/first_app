@@ -19,23 +19,35 @@ class HomePage extends StatelessWidget {
           "AwesomeApp Title",
         ),
       ),
-      body: Center(
-          child: Container(
-        width: 200,
-        height: 200,
-        alignment: Alignment.center,
-        child: const Text(
-          "This is a Text",
-          textAlign: TextAlign.center,
-          style: TextStyle(
-              color: Colors.white,
-              fontStyle: FontStyle.italic,
-              fontWeight: FontWeight.bold),
+      body: Container(
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          children: [
+            Container(
+              width: 100,
+              height: 100,
+              padding: const EdgeInsets.all(16),
+              color: Colors.red,
+            ),
+            Container(
+              width: 100,
+              height: 100,
+              padding: const EdgeInsets.all(16),
+              color: Colors.blue,
+            ),
+            Container(
+              width: 100,
+              height: 100,
+              padding: const EdgeInsets.all(16),
+              color: Colors.cyan,
+            ),
+          ],
         ),
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-            color: Colors.green, borderRadius: BorderRadius.circular(16)),
-      )),
+      )
     );
   }
 }
