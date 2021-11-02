@@ -50,7 +50,11 @@
             -> crossAxisAlignment: CrossAxisAlignment.center    : Align at Center.
             -> crossAxisAlignment: CrossAxisAlignment.baseline  : Base line need to be aligned in same level.
             -> crossAxisAlignment: CrossAxisAlignment.stretch   : Stretches end to end
-->
+        -> MainAxisSize
+            -> mainAxisSize: MainAxisSize.max : Like match_parent
+            -> mainAxisSize: MainAxisSize.min : Like wrap_content
+
+
 
 
 
